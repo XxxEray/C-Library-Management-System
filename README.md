@@ -9,7 +9,7 @@ This project is modular, so all source files must be compiled together.
 * Step 2: Prepare Compiler: Make sure you have a C compiler such as GCC or MinGW installed on your system.
 * Step 3: Running Options:
   * **VS Code**: Open the project folder with VS Code. Compile `main.c`, `functions.c`, and `library.c` through the Terminal. Tip: Make sure the C/C++ extension is installed.
-  * **Code::Blocks**: Open the Library_System.cbp file. Click the Build and Run button in the top menu.
+  * **Code::Blocks**: Open the `Library_System.cbp` file. Click the Build and Run button in the top menu.
 
 Terminal / CMD: You can compile all files at once by typing this command:
   * `gcc main.c functions.c library.c -o library_system`
