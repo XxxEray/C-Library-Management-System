@@ -8,7 +8,7 @@ This project is modular, so all source files must be compiled together.
 * Step 2: Prepare Compiler: Make sure you have a C compiler such as GCC or MinGW installed on your system.
 * Step 3: Running Options:
   * **VS Code**: Open the project folder with VS Code. Compile `main.c`, `functions.c`, and `library.c` through the Terminal. Tip: Make sure the C/C++ extension is installed.
-  * * **Code::Blocks**: Open the Library_System.cbp file. Click the Build and Run button in the top menu.
+  * **Code::Blocks**: Open the Library_System.cbp file. Click the Build and Run button in the top menu.
 
 Terminal / CMD: You can compile all files at once by typing this command:
   * `gcc main.c functions.c library.c -o library_system`
@@ -19,7 +19,7 @@ _**🛠️ Core Capabilities**_
 * Binary Persistence: Backend structure that saves data in `.dat` format (binary) for fast and secure reading and writing.
 * Safe Memory Handling: A solid foundation built on memory management and buffer safety.
 
-_**📂 Project Structure**_
+_**📂 Project Structure**_  
 This project is developed in a modular structure following software architecture discipline:
 * Main File: `main.c` is the entry point and main loop of the program.
 * Backend Logic: `functions.c` and `library.c` are where backend logic and library operations are managed.
