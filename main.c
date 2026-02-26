@@ -20,7 +20,7 @@ int main()
             default: printf("An error occurred."); save_Library(); return 0;
         }
 
-        printf("\nMenuye donmek icin Enter'a basin...");
+        printf("\nPress Enter to return to the menu...");
         getchar();
 
         clear_screen();
@@ -31,3 +31,4 @@ int main()
 
     return 0;
 }
+
